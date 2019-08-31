@@ -1,0 +1,700 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=603;
+	taxlabels
+	Amblyrhynchus_cristatus
+	Anisolepis_longicauda
+	Anolis_acutus
+	Anolis_aeneus
+	Anolis_aequatorialis
+	Anolis_agassizi
+	Anolis_ahli
+	Anolis_alayoni
+	Anolis_alfaroi
+	Anolis_aliniger
+	Anolis_allisoni
+	Anolis_allogus
+	Anolis_altae
+	Anolis_alumina
+	Anolis_alutaceus
+	Anolis_anatoloros
+	Anolis_angusticeps
+	Anolis_annectens
+	Anolis_aquaticus
+	Anolis_argenteolus
+	Anolis_argillaceus
+	Anolis_armouri
+	Anolis_auratus
+	Anolis_bahorucoensis
+	Anolis_baleatus
+	Anolis_baracoae
+	Anolis_barahonae
+	Anolis_barbatus
+	Anolis_barbouri
+	Anolis_bartschi
+	Anolis_bicaorum
+	Anolis_bimaculatus
+	Anolis_biporcatus
+	Anolis_bitectus
+	Anolis_boettgeri
+	Anolis_bombiceps
+	Anolis_bonairensis
+	Anolis_bremeri
+	Anolis_brevirostris
+	Anolis_brunneus
+	Anolis_calimae
+	Anolis_capito
+	Anolis_carolinensis
+	Anolis_carpenteri
+	Anolis_casildae
+	Anolis_caudalis
+	Anolis_centralis
+	Anolis_chamaeleonides
+	Anolis_chloris
+	Anolis_chlorocyanus
+	Anolis_chocorum
+	Anolis_christophei
+	Anolis_chrysolepis
+	Anolis_clivicola
+	Anolis_coelestinus
+	Anolis_confusus
+	Anolis_conspersus
+	Anolis_cooki
+	Anolis_crassulus
+	Anolis_cristatellus
+	Anolis_cupeyalensis
+	Anolis_cupreus
+	Anolis_cuvieri
+	Anolis_cyanopleurus
+	Anolis_cybotes
+	Anolis_danieli
+	Anolis_darlingtoni
+	Anolis_desechensis
+	Anolis_distichus
+	Anolis_dolichocephalus
+	Anolis_equestris
+	Anolis_ernestwilliamsi
+	Anolis_etheridgei
+	Anolis_eugenegrahami
+	Anolis_euskalerriari
+	Anolis_evermanni
+	Anolis_extremus
+	Anolis_ferreus
+	Anolis_festae
+	Anolis_fitchi
+	Anolis_fowleri
+	Anolis_fraseri
+	Anolis_frenatus
+	Anolis_fuscoauratus
+	Anolis_garmani
+	Anolis_garridoi
+	Anolis_gemmosus
+	Anolis_gingivinus
+	Anolis_grahami
+	Anolis_griseus
+	Anolis_guafe
+	Anolis_guamuhaya
+	Anolis_guazuma
+	Anolis_gundlachi
+	Anolis_haetianus
+	Anolis_hendersoni
+	Anolis_heterodermus
+	Anolis_homolechis
+	Anolis_huilae
+	Anolis_humilis
+	Anolis_imias
+	Anolis_inderenae
+	Anolis_inexpectatus
+	Anolis_insignis
+	Anolis_insolitus
+	Anolis_intermedius
+	Anolis_isolepis
+	Anolis_isthmicus
+	Anolis_jacare
+	Anolis_jubar
+	Anolis_kemptoni
+	Anolis_krugi
+	Anolis_laeviventris
+	Anolis_leachii
+	Anolis_lemurinus
+	Anolis_limifrons
+	Anolis_lineatopus
+	Anolis_lineatus
+	Anolis_lionotus
+	Anolis_lividus
+	Anolis_longiceps
+	Anolis_longitibialis
+	Anolis_loveridgei
+	Anolis_loysiana
+	Anolis_luciae
+	Anolis_lucius
+	Anolis_luteogularis
+	Anolis_macilentus
+	Anolis_maculigula
+	Anolis_marcanoi
+	Anolis_marmoratus
+	Anolis_marron
+	Anolis_maynardi
+	Anolis_meridionalis
+	Anolis_mestrei
+	Anolis_microtus
+	Anolis_monensis
+	Anolis_monticola
+	Anolis_neblininus
+	Anolis_nicefori
+	Anolis_nitens
+	Anolis_noblei
+	Anolis_nubilis
+	Anolis_occultus
+	Anolis_ocelloscapularis
+	Anolis_oculatus
+	Anolis_olssoni
+	Anolis_onca
+	Anolis_opalinus
+	Anolis_ophiolepis
+	Anolis_oporinus
+	Anolis_ortonii
+	Anolis_oxylophus
+	Anolis_pachypus
+	Anolis_paternus
+	Anolis_peraccae
+	Anolis_placidus
+	Anolis_poecilopus
+	Anolis_pogus
+	Anolis_polylepis
+	Anolis_polyrhachis
+	Anolis_poncensis
+	Anolis_porcatus
+	Anolis_porcus
+	Anolis_princeps
+	Anolis_pulchellus
+	Anolis_pumilus
+	Anolis_punctatus
+	Anolis_purpurgularis
+	Anolis_quadriocellifer
+	Anolis_quercorum
+	Anolis_reconditus
+	Anolis_rejectus
+	Anolis_richardii
+	Anolis_ricordi
+	Anolis_roquet
+	Anolis_rubribarbaris
+	Anolis_sabanus
+	Anolis_sagrei
+	Anolis_scriptus
+	Anolis_semilineatus
+	Anolis_sericeus
+	Anolis_sheplani
+	Anolis_shrevei
+	Anolis_singularis
+	Anolis_smallwoodi
+	Anolis_smaragdinus
+	Anolis_sminthus
+	Anolis_strahmi
+	Anolis_stratulus
+	Anolis_terraealtae
+	Anolis_tigrinus
+	Anolis_trachyderma
+	Anolis_transversalis
+	Anolis_trinitatis
+	Anolis_tropidogaster
+	Anolis_tropidonotus
+	Anolis_uniformis
+	Anolis_utilensis
+	Anolis_valencienni
+	Anolis_vanidicus
+	Anolis_vanzolinii
+	Anolis_ventrimaculatus
+	Anolis_vermiculatus
+	Anolis_wattsi
+	Anolis_websteri
+	Anolis_whitemani
+	Anolis_woodi
+	Anolis_zeus
+	Basiliscus_basiliscus
+	Basiliscus_galeritus
+	Basiliscus_plumifrons
+	Basiliscus_vittatus
+	Brachylophus_fasciatus
+	Brachylophus_vitiensis
+	Callisaurus_draconoides
+	Chalarodon_madagascariensis
+	Conolophus_pallidus
+	Conolophus_subcristatus
+	Cophosaurus_texanus
+	Corytophanes_cristatus
+	Corytophanes_percarinatus
+	Crotaphytus_antiquus
+	Crotaphytus_bicinctores
+	Crotaphytus_collaris
+	Crotaphytus_grismeri
+	Crotaphytus_insularis
+	Crotaphytus_nebrius
+	Crotaphytus_reticulatus
+	Crotaphytus_vestigium
+	Ctenoblepharys_adspersa
+	Ctenosaura_acanthura
+	Ctenosaura_bakeri
+	Ctenosaura_flavidorsalis
+	Ctenosaura_hemilopha
+	Ctenosaura_melanosterna
+	Ctenosaura_oaxacana
+	Ctenosaura_oedirhina
+	Ctenosaura_palearis
+	Ctenosaura_pectinata
+	Ctenosaura_quinquecarinata
+	Ctenosaura_similis
+	Cyclura_carinata
+	Cyclura_collei
+	Cyclura_cornuta
+	Cyclura_cychlura
+	Cyclura_nubila
+	Cyclura_pinguis
+	Cyclura_ricordi
+	Cyclura_rileyi
+	Diplolaemus_darwinii
+	Dipsosaurus_dorsalis
+	Enyalioides_heterolepis
+	Enyalioides_laticeps
+	Enyalioides_microlepis
+	Enyalioides_oshaughnessyi
+	Enyalioides_palpebralis
+	Enyalioides_praestabilis
+	Enyalius_bilineatus
+	Enyalius_leechii
+	Eurolophosaurus_amathites
+	Eurolophosaurus_divaricatus
+	Eurolophosaurus_nanuzae
+	Gambelia_copeii
+	Gambelia_sila
+	Gambelia_wislizenii
+	Holbrookia_lacerata
+	Holbrookia_maculata
+	Holbrookia_propinqua
+	Hoplocercus_spinosus
+	Iguana_delicatissima
+	Iguana_iguana
+	Laemanctus_longipes
+	Leiocephalus_barahonensis
+	Leiocephalus_carinatus
+	Leiocephalus_personatus
+	Leiocephalus_psammodromus
+	Leiocephalus_raviceps
+	Leiocephalus_schreibersii
+	Leiosaurus_bellii
+	Leiosaurus_catamarcensis
+	Leiosaurus_paronae
+	Liolaemus_abaucan
+	Liolaemus_albiceps
+	Liolaemus_andinus
+	Liolaemus_archeforus
+	Liolaemus_atacamensis
+	Liolaemus_audituvelatus
+	Liolaemus_austromendocinus
+	Liolaemus_azarai
+	Liolaemus_baguali
+	Liolaemus_bellii
+	Liolaemus_bibronii
+	Liolaemus_bitaeniatus
+	Liolaemus_boulengeri
+	Liolaemus_buergeri
+	Liolaemus_calchaqui
+	Liolaemus_canqueli
+	Liolaemus_capillitas
+	Liolaemus_ceii
+	Liolaemus_chacoensis
+	Liolaemus_chaltin
+	Liolaemus_chehuachekenk
+	Liolaemus_chiliensis
+	Liolaemus_coeruleus
+	Liolaemus_crepuscularis
+	Liolaemus_cuyanus
+	Liolaemus_cyanogaster
+	Liolaemus_darwinii
+	Liolaemus_dicktracy
+	Liolaemus_donosobarrosi
+	Liolaemus_dorbignyi
+	Liolaemus_elongatus
+	Liolaemus_escarchadosi
+	Liolaemus_espinozai
+	Liolaemus_fabiani
+	Liolaemus_famatinae
+	Liolaemus_fitzingerii
+	Liolaemus_fuscus
+	Liolaemus_gallardoi
+	Liolaemus_gracilis
+	Liolaemus_gravenhorstii
+	Liolaemus_grosseorum
+	Liolaemus_hatcheri
+	Liolaemus_heliodermis
+	Liolaemus_hermannunezi
+	Liolaemus_hernani
+	Liolaemus_huacahuasicus
+	Liolaemus_inacayali
+	Liolaemus_irregularis
+	Liolaemus_kingii
+	Liolaemus_kolengh
+	Liolaemus_koslowskyi
+	Liolaemus_kriegi
+	Liolaemus_laurenti
+	Liolaemus_lavillai
+	Liolaemus_lemniscatus
+	Liolaemus_leopardinus
+	Liolaemus_lineomaculatus
+	Liolaemus_lutzae
+	Liolaemus_magellanicus
+	Liolaemus_melanops
+	Liolaemus_molinai
+	Liolaemus_monticola
+	Liolaemus_morenoi
+	Liolaemus_multicolor
+	Liolaemus_multimaculatus
+	Liolaemus_nigromaculatus
+	Liolaemus_nigroviridis
+	Liolaemus_nitidus
+	Liolaemus_occipitalis
+	Liolaemus_olongasta
+	Liolaemus_orientalis
+	Liolaemus_ornatus
+	Liolaemus_pagaburoi
+	Liolaemus_paulinae
+	Liolaemus_petrophilus
+	Liolaemus_pictus
+	Liolaemus_platei
+	Liolaemus_pseudoanomalus
+	Liolaemus_pseudolemniscatus
+	Liolaemus_puna
+	Liolaemus_quilmes
+	Liolaemus_ramirezae
+	Liolaemus_reichei
+	Liolaemus_riojanus
+	Liolaemus_robertmertensi
+	Liolaemus_rothi
+	Liolaemus_ruibali
+	Liolaemus_salinicola
+	Liolaemus_sarmientoi
+	Liolaemus_saxatilis
+	Liolaemus_scapularis
+	Liolaemus_schroederi
+	Liolaemus_scolaroi
+	Liolaemus_silvanae
+	Liolaemus_somuncurae
+	Liolaemus_tari
+	Liolaemus_telsen
+	Liolaemus_tenuis
+	Liolaemus_thermarum
+	Liolaemus_tristis
+	Liolaemus_umbrifer
+	Liolaemus_uptoni
+	Liolaemus_uspallatensis
+	Liolaemus_vallecurensis
+	Liolaemus_walkeri
+	Liolaemus_wiegmannii
+	Liolaemus_xanthoviridis
+	Liolaemus_yanalcu
+	Liolaemus_zapallarensis
+	Liolaemus_zullyi
+	Microlophus_albemarlensis
+	Microlophus_atacamensis
+	Microlophus_bivittatus
+	Microlophus_delanonis
+	Microlophus_duncanensis
+	Microlophus_grayii
+	Microlophus_habelii
+	Microlophus_heterolepis
+	Microlophus_koepckeorum
+	Microlophus_occipitalis
+	Microlophus_pacificus
+	Microlophus_peruvianus
+	Microlophus_quadrivittatus
+	Microlophus_stolzmanni
+	Microlophus_theresiae
+	Microlophus_theresioides
+	Microlophus_thoracicus
+	Microlophus_tigris
+	Microlophus_yanezi
+	Morunasaurus_annularis
+	Oplurus_cuvieri
+	Oplurus_cyclurus
+	Oplurus_fierinensis
+	Oplurus_grandidieri
+	Oplurus_quadrimaculatus
+	Oplurus_saxicola
+	Petrosaurus_mearnsi
+	Petrosaurus_repens
+	Petrosaurus_thalassinus
+	Phrynosoma_asio
+	Phrynosoma_blainvillii
+	Phrynosoma_braconnieri
+	Phrynosoma_cerroense
+	Phrynosoma_cornutum
+	Phrynosoma_coronatum
+	Phrynosoma_ditmarsi
+	Phrynosoma_douglassii
+	Phrynosoma_hernandesi
+	Phrynosoma_mcallii
+	Phrynosoma_modestum
+	Phrynosoma_orbiculare
+	Phrynosoma_platyrhinos
+	Phrynosoma_solare
+	Phrynosoma_taurus
+	Phrynosoma_wigginsi
+	Phymaturus_antofagastensis
+	Phymaturus_dorsimaculatus
+	Phymaturus_indistinctus
+	Phymaturus_mallimaccii
+	Phymaturus_palluma
+	Phymaturus_patagonicus
+	Phymaturus_punae
+	Phymaturus_somuncurensis
+	Plica_lumaria
+	Plica_plica
+	Plica_umbra
+	Polychrus_acutirostris
+	Polychrus_femoralis
+	Polychrus_gutturosus
+	Polychrus_marmoratus
+	Pristidactylus_scapulatus
+	Pristidactylus_torquatus
+	Sauromalus_ater
+	Sauromalus_hispidus
+	Sauromalus_klauberi
+	Sauromalus_varius
+	Sceloporus_adleri
+	Sceloporus_aeneus
+	Sceloporus_angustus
+	Sceloporus_arenicolus
+	Sceloporus_bicanthalis
+	Sceloporus_bulleri
+	Sceloporus_carinatus
+	Sceloporus_cautus
+	Sceloporus_chaneyi
+	Sceloporus_chrysostictus
+	Sceloporus_clarkii
+	Sceloporus_consobrinus
+	Sceloporus_couchii
+	Sceloporus_cozumelae
+	Sceloporus_cryptus
+	Sceloporus_cyanogenys
+	Sceloporus_dugesii
+	Sceloporus_edwardtaylori
+	Sceloporus_formosus
+	Sceloporus_gadoviae
+	Sceloporus_goldmani
+	Sceloporus_graciosus
+	Sceloporus_grammicus
+	Sceloporus_grandaevus
+	Sceloporus_heterolepis
+	Sceloporus_horridus
+	Sceloporus_hunsakeri
+	Sceloporus_insignis
+	Sceloporus_jalapae
+	Sceloporus_jarrovii
+	Sceloporus_licki
+	Sceloporus_lineatulus
+	Sceloporus_lundelli
+	Sceloporus_macdougalli
+	Sceloporus_maculosus
+	Sceloporus_magister
+	Sceloporus_malachiticus
+	Sceloporus_megalepidurus
+	Sceloporus_melanorhinus
+	Sceloporus_merriami
+	Sceloporus_minor
+	Sceloporus_mucronatus
+	Sceloporus_nelsoni
+	Sceloporus_occidentalis
+	Sceloporus_ochoterenae
+	Sceloporus_olivaceus
+	Sceloporus_orcutti
+	Sceloporus_ornatus
+	Sceloporus_palaciosi
+	Sceloporus_parvus
+	Sceloporus_poinsettii
+	Sceloporus_pyrocephalus
+	Sceloporus_samcolemani
+	Sceloporus_scalaris
+	Sceloporus_serrifer
+	Sceloporus_siniferus
+	Sceloporus_slevini
+	Sceloporus_smaragdinus
+	Sceloporus_smithi
+	Sceloporus_spinosus
+	Sceloporus_squamosus
+	Sceloporus_stejnegeri
+	Sceloporus_subpictus
+	Sceloporus_taeniocnemis
+	Sceloporus_teapensis
+	Sceloporus_torquatus
+	Sceloporus_undulatus
+	Sceloporus_utiformis
+	Sceloporus_vandenburgianus
+	Sceloporus_variabilis
+	Sceloporus_virgatus
+	Sceloporus_woodi
+	Sceloporus_zosteromus
+	Stenocercus_angel
+	Stenocercus_angulifer
+	Stenocercus_apurimacus
+	Stenocercus_azureus
+	Stenocercus_boettgeri
+	Stenocercus_caducus
+	Stenocercus_chota
+	Stenocercus_chrysopygus
+	Stenocercus_crassicaudatus
+	Stenocercus_cupreus
+	Stenocercus_doellojuradoi
+	Stenocercus_empetrus
+	Stenocercus_eunetopsis
+	Stenocercus_festae
+	Stenocercus_formosus
+	Stenocercus_guentheri
+	Stenocercus_humeralis
+	Stenocercus_imitator
+	Stenocercus_iridescens
+	Stenocercus_latebrosus
+	Stenocercus_limitaris
+	Stenocercus_marmoratus
+	Stenocercus_melanopygus
+	Stenocercus_ochoai
+	Stenocercus_orientalis
+	Stenocercus_ornatissimus
+	Stenocercus_ornatus
+	Stenocercus_percultus
+	Stenocercus_puyango
+	Stenocercus_rhodomelas
+	Stenocercus_roseiventris
+	Stenocercus_scapularis
+	Stenocercus_stigmosus
+	Stenocercus_torquatus
+	Stenocercus_varius
+	Strobilurus_torquatus
+	Tropidurus_bogerti
+	Tropidurus_callathelys
+	Tropidurus_cocorobensis
+	Tropidurus_erythrocephalus
+	Tropidurus_etheridgei
+	Tropidurus_hispidus
+	Tropidurus_hygomi
+	Tropidurus_insulanus
+	Tropidurus_itambere
+	Tropidurus_montanus
+	Tropidurus_mucujensis
+	Tropidurus_oreadicus
+	Tropidurus_psammonastes
+	Tropidurus_spinulosus
+	Tropidurus_torquatus
+	Uma_exsul
+	Uma_inornata
+	Uma_notata
+	Uma_paraphygas
+	Uma_scoparia
+	Uracentron_flaviceps
+	Uranoscodon_superciliosus
+	Urosaurus_auriculatus
+	Urosaurus_bicarinatus
+	Urosaurus_clarionensis
+	Urosaurus_gadovi
+	Urosaurus_graciosus
+	Urosaurus_lahtelai
+	Urosaurus_nigricaudus
+	Urosaurus_ornatus
+	Urostrophus_gallardoi
+	Urostrophus_vautieri
+	Uta_palmeri
+	Uta_squamata
+	Uta_stansburiana
+	Uta_stejnegeri
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((Stenocercus_ochoai:30.629003,Stenocercus_formosus:30.629003):7.021351,(Stenocercus_apurimacus:31.423924,Stenocercus_scapularis:31.423924):6.226429):5.346772,((Stenocercus_roseiventris:35.117389,(Stenocercus_doellojuradoi:15.462311,Stenocercus_azureus:15.462311):19.655079):3.897004,(((Stenocercus_caducus:27.726441,Stenocercus_limitaris:27.726441):4.397052,((Stenocercus_percultus:16.713233,Stenocercus_ornatus:16.713233):14.456193,((Stenocercus_iridescens:13.403417,Stenocercus_puyango:13.403417):13.487343,((Stenocercus_rhodomelas:19.481534,Stenocercus_angulifer:19.481534):3.111293,(Stenocercus_chota:16.466132,(Stenocercus_festae:12.131586,(Stenocercus_angel:4.518373,Stenocercus_guentheri:4.518373):7.613214):4.334545):6.126696):4.297933):4.278665):0.954067):3.789083,(Stenocercus_humeralis:23.847553,((Stenocercus_marmoratus:19.915297,(Stenocercus_torquatus:10.373914,Stenocercus_crassicaudatus:10.373914):9.541383):2.188011,(Stenocercus_varius:22.087196,((Stenocercus_imitator:18.328354,(Stenocercus_empetrus:14.072773,Stenocercus_eunetopsis:14.072773):4.255581):2.471349,((Stenocercus_cupreus:12.073768,Stenocercus_boettgeri:12.073768):7.687779,((Stenocercus_ornatissimus:12.960388,Stenocercus_chrysopygus:12.960388):1.54613,((Stenocercus_stigmosus:11.269554,Stenocercus_melanopygus:11.269554):2.272498,(Stenocercus_latebrosus:12.892,Stenocercus_orientalis:12.892):0.650052):0.964466):5.25503):1.038156):1.287492):0.016113):1.744245):12.065023):3.101818):3.982732):45.473039,(((Microlophus_thoracicus:39.971469,(Microlophus_theresiae:30.771287,((Microlophus_heterolepis:11.730813,(Microlophus_peruvianus:9.597402,Microlophus_tigris:9.597402):2.13341):7.660359,(Microlophus_quadrivittatus:15.203487,(Microlophus_atacamensis:2.049891,(Microlophus_yanezi:1.114745,Microlophus_theresioides:1.114745):0.935146):13.153596):4.187684):11.380115):9.200182):10.495152,(Microlophus_koepckeorum:42.276475,((Microlophus_occipitalis:21.834016,(Microlophus_habelii:10.822468,Microlophus_bivittatus:10.822468):11.011548):17.562392,(Microlophus_stolzmanni:36.165786,(Microlophus_delanonis:18.84786,(Microlophus_grayii:9.675469,(Microlophus_pacificus:7.690256,(Microlophus_duncanensis:5.186062,Microlophus_albemarlensis:5.186062):2.504194):1.985213):9.172391):17.317927):3.230621):2.880067):8.190145):14.758192,(Uranoscodon_superciliosus:59.281052,(((Tropidurus_bogerti:35.978825,Uracentron_flaviceps:35.978825):7.552736,(Strobilurus_torquatus:37.865949,(Plica_umbra:33.40468,(Plica_plica:14.237166,Plica_lumaria:14.237166):19.167514):4.461269):5.665612):7.671013,((Tropidurus_spinulosus:11.90833,Tropidurus_callathelys:11.90833):34.462735,((Eurolophosaurus_divaricatus:26.755141,(Eurolophosaurus_nanuzae:15.54986,Eurolophosaurus_amathites:15.54986):11.20528):15.214726,(Tropidurus_hygomi:24.444908,(Tropidurus_montanus:22.632109,((Tropidurus_itambere:9.153149,Tropidurus_psammonastes:9.153149):9.574485,((Tropidurus_insulanus:9.120955,(Tropidurus_oreadicus:3.910899,(Tropidurus_torquatus:2.322825,Tropidurus_hispidus:2.322825):1.588074):5.210056):7.651422,((Tropidurus_erythrocephalus:9.270756,Tropidurus_mucujensis:9.270756):4.286334,(Tropidurus_etheridgei:9.12964,Tropidurus_cocorobensis:9.12964):4.42745):3.215288):1.955257):3.904475):1.812799):17.52496):4.401197):4.83151):8.078478):5.94376):23.245352):16.14994,(((Dipsosaurus_dorsalis:58.706405,(Brachylophus_vitiensis:3.821855,Brachylophus_fasciatus:3.821855):54.88455):7.577303,(((Iguana_delicatissima:20.153974,Iguana_iguana:20.153974):9.754193,(Sauromalus_ater:8.877658,(Sauromalus_klauberi:3.905788,(Sauromalus_varius:2.872656,Sauromalus_hispidus:2.872656):1.033132):4.97187):21.03051):5.941166,((Cyclura_pinguis:18.28141,((Cyclura_cornuta:9.781716,(Cyclura_carinata:3.849328,Cyclura_ricordi:3.849328):5.932388):4.153116,(Cyclura_collei:10.934375,(Cyclura_rileyi:4.335772,(Cyclura_cychlura:2.431479,Cyclura_nubila:2.431479):1.904293):6.598603):3.000457):4.346578):16.27438,((Amblyrhynchus_cristatus:24.248806,(Conolophus_pallidus:2.093531,Conolophus_subcristatus:2.093531):22.155275):2.113569,((Ctenosaura_similis:18.877699,(Ctenosaura_hemilopha:14.098873,(Ctenosaura_pectinata:5.319961,Ctenosaura_acanthura:5.319961):8.778912):4.778826):1.471975,((Ctenosaura_melanosterna:2.209744,(Ctenosaura_bakeri:1.892822,Ctenosaura_oedirhina:1.892822):0.316923):4.088625,((Ctenosaura_oaxacana:1.756783,Ctenosaura_quinquecarinata:1.756783):1.492192,(Ctenosaura_flavidorsalis:2.225269,Ctenosaura_palearis:2.225269):1.023706):3.049394):14.051305):6.0127):8.193415):1.293543):30.434376):33.20995,(((Leiocephalus_raviceps:27.289086,Leiocephalus_carinatus:27.289086):9.346979,((Leiocephalus_barahonensis:25.625111,Leiocephalus_schreibersii:25.625111):4.318756,(Leiocephalus_personatus:24.759736,Leiocephalus_psammodromus:24.759736):5.18413):6.692199):59.607736,((((Gambelia_wislizenii:5.709245,(Gambelia_copeii:4.932434,Gambelia_sila:4.932434):0.776811):31.229401,((Crotaphytus_reticulatus:8.738083,Crotaphytus_antiquus:8.738083):12.697932,((Crotaphytus_bicinctores:15.53741,(Crotaphytus_collaris:4.904791,Crotaphytus_nebrius:4.904791):10.632619):3.671056,(Crotaphytus_vestigium:4.522146,(Crotaphytus_grismeri:3.289779,Crotaphytus_insularis:3.289779):1.232367):14.68632):2.227548):15.502632):50.828754,((((Callisaurus_draconoides:24.866111,(Cophosaurus_texanus:22.339153,(Holbrookia_lacerata:18.057242,(Holbrookia_maculata:9.672972,Holbrookia_propinqua:9.672972):8.38427):4.281912):2.526958):5.305143,((Uma_paraphygas:8.452395,Uma_exsul:8.452395):12.372174,(Uma_scoparia:8.616618,(Uma_notata:1.0113,Uma_inornata:1.0113):7.605318):12.20795):9.346685):8.495108,(Phrynosoma_cornutum:28.63881,((Phrynosoma_solare:22.006947,((Phrynosoma_platyrhinos:12.263445,Phrynosoma_mcallii:12.263445):7.718701,(Phrynosoma_coronatum:7.943467,(Phrynosoma_blainvillii:6.213249,(Phrynosoma_wigginsi:1.18153,Phrynosoma_cerroense:1.18153):5.031719):1.730218):12.03868):2.024801):2.531366,((Phrynosoma_asio:20.844013,(Phrynosoma_taurus:15.723805,Phrynosoma_braconnieri:15.723805):5.120209):2.677185,(Phrynosoma_modestum:19.380923,(Phrynosoma_orbiculare:16.367146,(Phrynosoma_ditmarsi:9.237387,(Phrynosoma_hernandesi:5.862459,Phrynosoma_douglassii:5.862459):3.374928):7.129759):3.013777):4.140275):1.017115):4.100497):10.027551):16.056385,(((Petrosaurus_mearnsi:29.310514,(Petrosaurus_thalassinus:2.02411,Petrosaurus_repens:2.02411):27.286404):14.014806,(Uta_squamata:13.665156,(Uta_palmeri:9.63968,(Uta_stejnegeri:2.015702,Uta_stansburiana:2.015702):7.623978):4.025476):29.660164):2.716993,(((Urosaurus_bicarinatus:15.377787,Urosaurus_gadovi:15.377787):20.405583,((Urosaurus_nigricaudus:18.41357,Urosaurus_lahtelai:18.41357):6.073751,(Urosaurus_graciosus:17.517192,(Urosaurus_ornatus:11.191012,(Urosaurus_auriculatus:3.341675,Urosaurus_clarionensis:3.341675):7.849337):6.32618):6.970129):11.296048):8.631643,(((Sceloporus_couchii:26.746621,Sceloporus_parvus:26.746621):6.133166,(Sceloporus_chrysostictus:17.804689,(Sceloporus_teapensis:16.202521,(Sceloporus_variabilis:11.482618,(Sceloporus_cozumelae:7.342607,Sceloporus_smithi:7.342607):4.140011):4.719902):1.602168):15.075099):9.972393,(((Sceloporus_angustus:15.346079,Sceloporus_grandaevus:15.346079):15.49845,(Sceloporus_utiformis:28.331266,(Sceloporus_carinatus:17.625384,(Sceloporus_siniferus:8.892952,Sceloporus_squamosus:8.892952):8.732432):10.705882):2.513263):10.252874,(Sceloporus_merriami:32.731546,((Sceloporus_nelsoni:21.427697,Sceloporus_pyrocephalus:21.427697):9.206911,(((Sceloporus_ochoterenae:15.812768,Sceloporus_jalapae:15.812768):10.165892,(Sceloporus_maculosus:18.329961,Sceloporus_gadoviae:18.329961):7.648699):3.238339,((Sceloporus_vandenburgianus:6.819313,(Sceloporus_arenicolus:3.050578,Sceloporus_graciosus:3.050578):3.768734):17.560555,(((Sceloporus_licki:11.143854,(Sceloporus_hunsakeri:6.143312,Sceloporus_orcutti:6.143312):5.000542):6.427138,(Sceloporus_magister:14.458851,(Sceloporus_lineatulus:3.424869,Sceloporus_zosteromus:3.424869):11.033983):3.112141):3.626461,(Sceloporus_melanorhinus:19.786105,(((Sceloporus_grammicus:11.503605,(Sceloporus_heterolepis:7.561915,Sceloporus_palaciosi:7.561915):3.941689):5.164721,((Sceloporus_bicanthalis:5.429288,Sceloporus_aeneus:5.429288):4.929627,((Sceloporus_slevini:2.986288,Sceloporus_scalaris:2.986288):4.867272,(Sceloporus_chaneyi:3.466854,(Sceloporus_goldmani:0.576465,Sceloporus_samcolemani:0.576465):2.890389):4.386706):2.505355):6.309411):1.652958,(((Sceloporus_megalepidurus:14.241514,(Sceloporus_insignis:11.21172,(Sceloporus_jarrovii:9.932539,(Sceloporus_bulleri:6.244208,Sceloporus_torquatus:6.244208):3.688331):1.279181):3.029794):2.154024,((Sceloporus_macdougalli:4.839564,Sceloporus_mucronatus:4.839564):5.230334,((Sceloporus_dugesii:6.878971,Sceloporus_poinsettii:6.878971):1.450829,(Sceloporus_minor:6.228956,(Sceloporus_ornatus:4.744231,(Sceloporus_cyanogenys:1.604804,Sceloporus_serrifer:1.604804):3.139427):1.484725):2.100844):1.740098):6.32564):1.066803,(Sceloporus_clarkii:17.175,((Sceloporus_olivaceus:15.214625,(Sceloporus_occidentalis:10.998751,(Sceloporus_virgatus:9.985182,((Sceloporus_cautus:4.516415,Sceloporus_undulatus:4.516415):2.12095,(Sceloporus_consobrinus:2.723185,Sceloporus_woodi:2.723185):3.914181):3.347816):1.01357):4.215874):0.87367,((Sceloporus_horridus:6.846824,(Sceloporus_spinosus:5.291531,Sceloporus_edwardtaylori:5.291531):1.555292):5.613826,(((Sceloporus_lundelli:6.963351,Sceloporus_malachiticus:6.963351):0.977705,(Sceloporus_smaragdinus:2.168054,Sceloporus_taeniocnemis:2.168054):5.773002):1.390413,((Sceloporus_subpictus:0.616237,Sceloporus_cryptus:0.616237):7.588828,(Sceloporus_formosus:4.627838,(Sceloporus_adleri:1.941994,Sceloporus_stejnegeri:1.941994):2.685843):3.577227):1.126404):3.12918):3.627645):1.086706):0.28734):0.858943):1.464822):1.411348):3.182415):4.837131):1.417609):2.096937):8.365856):1.754779):1.562831):1.627301):8.680433):33.044654):5.168531,((((Polychrus_marmoratus:34.804852,Polychrus_femoralis:34.804852):9.338269,(Polychrus_acutirostris:38.094959,Polychrus_gutturosus:38.094959):6.048162):37.064181,(Hoplocercus_spinosus:43.019969,(Morunasaurus_annularis:37.510371,((Enyalioides_heterolepis:26.804405,Enyalioides_laticeps:26.804405):9.212021,(Enyalioides_oshaughnessyi:30.514903,(Enyalioides_palpebralis:23.100303,(Enyalioides_praestabilis:15.224136,Enyalioides_microlepis:15.224136):7.876167):7.414599):5.501524):1.493945):5.509598):38.187333):9.40385,(((((Chalarodon_madagascariensis:25.992905,(Oplurus_cuvieri:16.652844,Oplurus_cyclurus:16.652844):9.340062):5.003077,(Oplurus_quadrimaculatus:26.356441,(Oplurus_saxicola:16.843388,(Oplurus_fierinensis:11.215957,Oplurus_grandidieri:11.215957):5.62743):9.513053):4.639541):46.869602,((Enyalius_bilineatus:35.325439,(Enyalius_leechii:32.792124,(Urostrophus_gallardoi:25.987789,(Urostrophus_vautieri:21.390125,Anisolepis_longicauda:21.390125):4.597663):6.804336):2.533315):6.866872,((Diplolaemus_darwinii:25.314967,Pristidactylus_scapulatus:25.314967):6.980081,(Pristidactylus_torquatus:24.373639,(Leiosaurus_bellii:18.210852,(Leiosaurus_catamarcensis:14.831184,Leiosaurus_paronae:14.831184):3.379668):6.162787):7.921409):9.897264):35.673273):6.897001,(Ctenoblepharys_adspersa:71.135462,(((Phymaturus_indistinctus:7.599359,(Phymaturus_patagonicus:2.942383,Phymaturus_somuncurensis:2.942383):4.656975):23.129013,(Phymaturus_dorsimaculatus:7.776726,(Phymaturus_palluma:4.19284,(Phymaturus_punae:1.873988,(Phymaturus_antofagastensis:1.199975,Phymaturus_mallimaccii:1.199975):0.674013):2.318852):3.583886):22.951645):27.575873,(((Liolaemus_tenuis:23.636641,((Liolaemus_lemniscatus:18.720367,((Liolaemus_fuscus:11.65127,Liolaemus_nigroviridis:11.65127):4.300273,(Liolaemus_nitidus:8.88703,Liolaemus_monticola:8.88703):7.064513):2.768824):3.867377,((Liolaemus_zapallarensis:8.080608,Liolaemus_atacamensis:8.080608):11.404903,(Liolaemus_pseudolemniscatus:17.947571,(Liolaemus_nigromaculatus:16.741654,(Liolaemus_paulinae:8.184323,Liolaemus_platei:8.184323):8.557331):1.205916):1.537941):3.102232):1.048897):2.506549,(((Liolaemus_thermarum:1.702444,Liolaemus_austromendocinus:1.702444):10.08237,((Liolaemus_dicktracy:6.110378,(Liolaemus_heliodermis:1.900306,(Liolaemus_umbrifer:0.394183,Liolaemus_capillitas:0.394183):1.506123):4.210071):4.668806,(Liolaemus_petrophilus:10.10733,((Liolaemus_ceii:1.063454,Liolaemus_buergeri:1.063454):2.935321,(Liolaemus_leopardinus:3.585514,(Liolaemus_elongatus:2.482286,Liolaemus_kriegi:2.482286):1.103228):0.41326):6.108556):0.671854):1.005631):9.533074,(Liolaemus_coeruleus:16.569301,(((Liolaemus_bellii:6.474364,(Liolaemus_schroederi:3.842865,Liolaemus_gravenhorstii:3.842865):2.631499):3.292216,(Liolaemus_chiliensis:7.27222,(Liolaemus_cyanogaster:6.978293,(Liolaemus_hernani:3.263423,Liolaemus_pictus:3.263423):3.714871):0.293926):2.49436):5.270641,(Liolaemus_bibronii:10.567105,(((Liolaemus_ramirezae:5.59535,Liolaemus_yanalcu:5.59535):1.621421,(Liolaemus_robertmertensi:6.316855,(Liolaemus_saxatilis:1.104954,Liolaemus_gracilis:1.104954):5.2119):0.899916):0.812282,(Liolaemus_pagaburoi:6.939552,(Liolaemus_bitaeniatus:6.022659,(Liolaemus_chaltin:2.887578,(Liolaemus_walkeri:0.58952,Liolaemus_puna:0.58952):2.298057):3.135082):0.916892):1.089501):2.538053):4.470116):1.532079):4.748587):4.825301):4.177847,(((Liolaemus_hatcheri:10.339524,(Liolaemus_lineomaculatus:8.078924,(Liolaemus_kolengh:1.355308,Liolaemus_silvanae:1.355308):6.723616):2.2606):3.62715,(Liolaemus_magellanicus:10.128665,((Liolaemus_somuncurae:5.309221,Liolaemus_uptoni:5.309221):2.026144,((Liolaemus_baguali:1.704616,(Liolaemus_escarchadosi:1.001171,Liolaemus_tari:1.001171):0.703445):2.299849,((Liolaemus_kingii:1.908276,(Liolaemus_sarmientoi:1.722639,Liolaemus_gallardoi:1.722639):0.185637):0.337941,(Liolaemus_scolaroi:1.35248,(Liolaemus_zullyi:0.804344,(Liolaemus_archeforus:0.760515,Liolaemus_tristis:0.760515):0.043829):0.548136):0.893737):1.758248):3.330901):2.7933):3.83801):9.512913,((Liolaemus_reichei:11.774044,(Liolaemus_orientalis:10.747888,((Liolaemus_huacahuasicus:8.835413,(Liolaemus_dorbignyi:7.563698,(Liolaemus_molinai:6.627982,(Liolaemus_andinus:3.371938,Liolaemus_multicolor:3.371938):3.256044):0.935716):1.271716):1.683512,(Liolaemus_famatinae:6.949617,(Liolaemus_vallecurensis:6.041259,(Liolaemus_ruibali:5.201857,(Liolaemus_fabiani:2.770835,Liolaemus_audituvelatus:2.770835):2.431022):0.839403):0.908357):3.569308):0.228963):1.026157):7.420061,((Liolaemus_pseudoanomalus:15.055051,((Liolaemus_lutzae:8.174025,Liolaemus_occipitalis:8.174025):5.094951,((Liolaemus_scapularis:9.359465,(Liolaemus_wiegmannii:6.216517,Liolaemus_azarai:6.216517):3.142948):1.407997,(Liolaemus_salinicola:9.335315,(Liolaemus_multimaculatus:0.650767,Liolaemus_riojanus:0.650767):8.684549):1.432147):2.501514):1.786075):1.843237,(((Liolaemus_rothi:8.293635,(Liolaemus_boulengeri:7.081917,(Liolaemus_telsen:5.733958,Liolaemus_inacayali:5.733958):1.347959):1.211718):5.471902,((Liolaemus_donosobarrosi:5.999379,Liolaemus_cuyanus:5.999379):2.069096,(Liolaemus_melanops:5.36531,((Liolaemus_morenoi:3.16701,Liolaemus_canqueli:3.16701):1.411404,(Liolaemus_chehuachekenk:3.62096,(Liolaemus_xanthoviridis:1.989195,Liolaemus_fitzingerii:1.989195):1.631766):0.957454):0.786896):2.703165):5.697062):1.623913,(Liolaemus_hermannunezi:13.354718,((Liolaemus_uspallatensis:8.18163,(Liolaemus_chacoensis:6.157228,(Liolaemus_olongasta:4.946172,(Liolaemus_grosseorum:3.285892,(Liolaemus_laurenti:0.917276,Liolaemus_darwinii:0.917276):2.368616):1.66028):1.211056):2.024402):1.075419,((Liolaemus_koslowskyi:7.274958,(Liolaemus_espinozai:1.863666,Liolaemus_quilmes:1.863666):5.411292):1.116533,(Liolaemus_abaucan:7.944155,(Liolaemus_crepuscularis:5.037167,((Liolaemus_albiceps:0.912546,Liolaemus_irregularis:0.912546):3.649315,(Liolaemus_calchaqui:3.887101,(Liolaemus_lavillai:3.477858,Liolaemus_ornatus:3.477858):0.409242):0.67476):0.475306):2.906989):0.447335):0.865558):4.09767):2.034732):1.508837):2.295818):4.285482):6.841448):27.983209):12.831217):13.627123):4.069026,(((Laemanctus_longipes:36.75334,(Corytophanes_cristatus:12.783412,Corytophanes_percarinatus:12.783412):23.969928):5.682305,(Basiliscus_galeritus:33.906369,(Basiliscus_vittatus:23.764828,(Basiliscus_basiliscus:13.550075,Basiliscus_plumifrons:13.550075):10.214752):10.141541):8.529276):40.966304,(((Anolis_boettgeri:35.623365,((Anolis_bonairensis:27.326986,Anolis_luciae:27.326986):4.956392,(Anolis_griseus:18.216796,(Anolis_trinitatis:15.93489,(Anolis_richardii:13.742195,(Anolis_aeneus:8.462796,(Anolis_extremus:4.841607,Anolis_roquet:4.841607):3.621189):5.279399):2.192695):2.281906):14.066583):3.339987):4.24833,((Anolis_fitchi:34.903709,(Anolis_huilae:30.997986,((Anolis_ventrimaculatus:20.43739,(Anolis_gemmosus:14.985587,Anolis_aequatorialis:14.985587):5.451803):5.642024,(Anolis_peraccae:21.212004,(Anolis_chloris:16.709655,Anolis_festae:16.709655):4.502349):4.867411):4.918572):3.905723):2.570556,((Anolis_euskalerriari:16.510343,(Anolis_nicefori:9.445471,(Anolis_heterodermus:4.941848,(Anolis_inderenae:3.363023,Anolis_vanzolinii:3.363023):1.578826):4.503623):7.064872):19.704375,(((Anolis_transversalis:18.956831,Anolis_punctatus:18.956831):11.109893,(Anolis_tigrinus:23.889538,(Anolis_anatoloros:4.261259,Anolis_jacare:4.261259):19.628279):6.177186):5.042442,((Anolis_neblininus:28.997018,Anolis_calimae:28.997018):5.695933,(Anolis_agassizi:24.568223,((Anolis_insignis:8.523416,Anolis_microtus:8.523416):15.328599,((Anolis_danieli:20.852006,(Anolis_chocorum:14.970073,Anolis_fraseri:14.970073):5.881933):1.42532,((Anolis_maculigula:12.798596,Anolis_casildae:12.798596):9.463553,(Anolis_frenatus:5.890254,Anolis_princeps:5.890254):16.371895):0.015177):1.574689):0.716207):10.124729):0.416214):1.105552):1.259548):2.397429):11.300119,((((Anolis_vermiculatus:23.395243,Anolis_bartschi:23.395243):14.714206,(Anolis_occultus:36.329982,(Anolis_monticola:33.107151,(Anolis_darlingtoni:30.201456,(Anolis_bahorucoensis:19.639833,(Anolis_hendersoni:9.78775,Anolis_dolichocephalus:9.78775):9.852083):10.561622):2.905695):3.22283):1.779467):1.505545,((Anolis_coelestinus:29.529431,(Anolis_chlorocyanus:18.590141,(Anolis_aliniger:11.025995,Anolis_singularis:11.025995):7.564146):10.93929):7.473786,((Anolis_noblei:0.940535,Anolis_smallwoodi:0.940535):3.341001,(Anolis_baracoae:3.743363,(Anolis_equestris:3.122734,Anolis_luteogularis:3.122734):0.620628):0.538173):32.721682):2.611776):4.446784,(((Anolis_etheridgei:28.333034,(Anolis_insolitus:19.64542,Anolis_fowleri:19.64542):8.687614):8.824205,(Anolis_barbouri:34.838562,(Anolis_olssoni:28.75123,(Anolis_alumina:18.381205,Anolis_semilineatus:18.381205):10.370024):6.087332):2.318677):4.702856,((Anolis_argenteolus:35.970186,((Anolis_barbatus:5.458897,(Anolis_porcus:3.69298,(Anolis_guamuhaya:2.900609,Anolis_chamaeleonides:2.900609):0.792371):1.765917):26.290468,(Anolis_cuvieri:27.081776,(Anolis_christophei:20.944865,(Anolis_eugenegrahami:16.851186,(Anolis_ricordi:7.143396,(Anolis_barahonae:2.293611,Anolis_baleatus:2.293611):4.849786):9.70779):4.093679):6.136911):4.667589):4.220821):4.737393,(((Anolis_marcanoi:23.246209,((Anolis_longitibialis:11.985627,Anolis_strahmi:11.985627):6.201323,(Anolis_haetianus:13.059026,(Anolis_shrevei:10.098449,(Anolis_armouri:8.305906,(Anolis_whitemani:4.888149,Anolis_cybotes:4.888149):3.417758):1.792542):2.960577):5.127924):5.059259):13.90835,(Anolis_lucius:35.233141,(((Anolis_clivicola:12.78577,(Anolis_rejectus:10.402202,(Anolis_cupeyalensis:2.371144,Anolis_cyanopleurus:2.371144):8.031058):2.383568):5.673135,((Anolis_alfaroi:11.062879,Anolis_macilentus:11.062879):5.620583,(Anolis_vanidicus:15.487406,(Anolis_alutaceus:3.819784,Anolis_inexpectatus:3.819784):11.667622):1.196056):1.775443):12.710389,(((Anolis_sheplani:8.42638,Anolis_placidus:8.42638):15.944766,(Anolis_alayoni:13.527353,(Anolis_angusticeps:6.84416,Anolis_paternus:6.84416):6.683193):10.843792):2.524403,(((Anolis_guazuma:0.090919,Anolis_garridoi:0.090919):21.063606,(Anolis_loysiana:16.282028,(Anolis_pumilus:6.972378,(Anolis_argillaceus:6.154486,Anolis_centralis:6.154486):0.817892):9.30965):4.872497):1.947592,((Anolis_isolepis:10.869428,Anolis_oporinus:10.869428):9.533307,((Anolis_porcatus:8.357844,Anolis_carolinensis:8.357844):5.196839,((Anolis_brunneus:9.068511,Anolis_longiceps:9.068511):0.158946,(Anolis_maynardi:8.457207,(Anolis_smaragdinus:6.081312,Anolis_allisoni:6.081312):2.375895):0.77025):4.327226):6.848052):2.699382):3.793431):4.273746):4.063847):1.921418):2.042653,((((Anolis_pogus:15.033819,Anolis_wattsi:15.033819):9.491468,((Anolis_leachii:16.431576,(Anolis_gingivinus:12.315793,Anolis_bimaculatus:12.315793):4.115783):1.802458,((Anolis_terraealtae:11.643476,Anolis_oculatus:11.643476):2.206001,(Anolis_ferreus:9.260487,(Anolis_lividus:7.185886,(Anolis_nubilis:6.519515,(Anolis_marmoratus:5.34361,Anolis_sabanus:5.34361):1.175905):0.666371):2.074601):4.588989):4.384559):6.291252):8.585541,((Anolis_distichus:17.692763,(Anolis_websteri:14.437887,(Anolis_brevirostris:12.052911,(Anolis_caudalis:7.313109,Anolis_marron:7.313109):4.739802):2.384976):3.254875):12.195042,((Anolis_acutus:14.012702,(Anolis_evermanni:11.360637,Anolis_stratulus:11.360637):2.652065):11.108228,(((Anolis_krugi:12.249602,Anolis_pulchellus:12.249602):6.03237,(Anolis_gundlachi:14.736045,Anolis_poncensis:14.736045):3.545926):3.086306,((Anolis_cooki:10.52747,Anolis_monensis:10.52747):5.929474,(Anolis_scriptus:13.529156,(Anolis_ernestwilliamsi:8.049518,(Anolis_cristatellus:3.822221,Anolis_desechensis:3.822221):4.227297):5.479638):2.927788):4.911334):3.752652):4.766875):3.223023):4.821341,(((Anolis_imias:22.92162,(Anolis_rubribarbaris:10.581307,(Anolis_ahli:5.691689,Anolis_allogus:5.691689):4.889618):12.340313):7.408887,((Anolis_guafe:12.532296,(Anolis_confusus:8.419845,(Anolis_homolechis:3.622868,Anolis_jubar:3.622868):4.796977):4.112451):10.113684,(Anolis_mestrei:15.349565,(Anolis_ophiolepis:10.843575,(Anolis_sagrei:8.900439,(Anolis_bremeri:4.182604,Anolis_quadriocellifer:4.182604):4.717835):1.943136):4.50599):7.296415):7.684527):3.11675,((((Anolis_reconditus:16.519077,Anolis_lineatopus:16.519077):10.935858,(Anolis_valencienni:25.121677,(Anolis_opalinus:14.809945,(Anolis_garmani:11.456415,(Anolis_grahami:1.555727,Anolis_conspersus:1.555727):9.900687):3.35353):10.311732):2.333258):1.049316,(Anolis_auratus:25.004767,((Anolis_onca:9.267805,Anolis_annectens:9.267805):14.439127,(Anolis_lineatus:22.167212,(Anolis_meridionalis:19.85195,(Anolis_nitens:17.602239,(Anolis_chrysolepis:9.898686,Anolis_bombiceps:9.898686):7.703553):2.249711):2.315262):1.53972):1.297835):3.499484):2.219194,(((Anolis_purpurgularis:16.087057,Anolis_loveridgei:16.087057):11.888257,(Anolis_utilensis:27.543558,((Anolis_sminthus:20.274786,Anolis_crassulus:20.274786):5.888521,((Anolis_uniformis:19.818414,Anolis_polyrhachis:19.818414):5.261724,(Anolis_bitectus:23.327217,(Anolis_biporcatus:18.689288,(Anolis_aquaticus:9.554322,Anolis_woodi:9.554322):9.134967):4.637929):1.752921):1.08317):1.38025):0.431756):1.775088,(Anolis_quercorum:27.750121,((Anolis_ortonii:21.904525,((Anolis_sericeus:8.12443,Anolis_isthmicus:8.12443):11.277622,(Anolis_intermedius:10.519065,Anolis_laeviventris:10.519065):8.882987):2.502473):1.344154,(((Anolis_humilis:18.518645,Anolis_pachypus:18.518645):2.07541,(Anolis_altae:12.230467,(Anolis_fuscoauratus:9.265997,Anolis_kemptoni:9.265997):2.96447):8.363588):0.99699,((Anolis_polylepis:14.868781,Anolis_cupreus:14.868781):5.437968,((Anolis_tropidonotus:14.835415,Anolis_capito:14.835415):4.924082,(Anolis_ocelloscapularis:14.764277,(Anolis_carpenteri:14.005907,(((Anolis_zeus:6.599346,Anolis_limifrons:6.599346):4.945869,(Anolis_lemurinus:1.879093,Anolis_bicaorum:1.879093):9.666123):1.373757,((Anolis_lionotus:8.49032,Anolis_oxylophus:8.49032):2.166015,(Anolis_tropidogaster:8.922138,(Anolis_trachyderma:6.766306,Anolis_poecilopus:6.766306):2.155832):1.734197):2.262637):1.086935):0.75837):4.99522):0.547252):1.284295):1.657635):4.501442):2.000281):0.973043):2.723812):4.484912):1.265043):1.510367):1.152515):2.201684):7.110036):32.230135):5.429662):1.779542):2.324779):3.30787):3.249858):5.126445);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isExternal=true;
+	set nodeShape.isInternal=true;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
